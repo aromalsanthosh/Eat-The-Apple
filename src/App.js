@@ -31,10 +31,9 @@ function App() {
               <ScoreBoard/>
               <NavButtons/>
               <BtnGameCtrl/>
-              <Auto/><BtnStop/>
-              
+              <Auto/>
+              <BtnStop/>
               <Obstacle/>
-            
           </td>
         </tr>
         <tr>
