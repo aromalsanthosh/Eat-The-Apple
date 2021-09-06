@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Eat The Apple
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08a54006-c098-4b56-84ff-6f8d7d250ea7/deploy-status)](https://app.netlify.com/sites/eat-the-apple/deploys)
+
+##### A react based game inspired from old nokia phone snake game. Built as a part of internship training in [Incredible Visibility](https://www.incrediblevisibility.com/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
