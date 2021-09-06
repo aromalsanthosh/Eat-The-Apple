@@ -17,8 +17,7 @@ import Obstacle from './SelectObstacle'
 function App() {
 
   return (
-    <div>
-    <br></br>
+    <div id="app">
       <table id='container'>
         <tr>
           <h1>Eat The Apple<span><img alt="apple" id="logo" src={logo} /></span></h1>
