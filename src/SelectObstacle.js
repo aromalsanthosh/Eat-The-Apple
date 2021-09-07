@@ -23,6 +23,14 @@ function Obstacle(){
                 <option className="btn-outline-secondary" value="Pattern4">Pattern 4</option>
                 <option className="btn-outline-secondary" value="Pattern5">Pattern 5</option>
             </select>
+            <label for="difficulty" className="Obstacle_lbl">Choose a difficulty level</label>
+            <select id="selectedDifficulty" className="btn btn-outline-info btn-rounded waves-effect" onChange={()=>changeDifficulty(document.getElementById("selectedDifficulty").value)}>
+                <option className="btn btn-outline-secondary btn-rounded waves-effect" value="None">--None--</option>
+                <option className="btn-outline-secondary" value="Easy">Easy</option>
+                <option className="btn-outline-secondary" value="Medium">Medium</option>
+                <option className="btn-outline-secondary" value="Hard">Hard</option>
+                
+            </select>
          </div>
     );
 }
@@ -64,6 +72,35 @@ function ChangeObstacle(pattern){
     for (let id of window.obstacle_pattern){
         document.getElementById(id).className="obstacle_box";
     }
+}
+
+function changeDifficulty(difficulty){
+    ///////////Reset Display///////////
+    document.getElementById('game_alert').innerHTML="";
+    document.getElementById('game_alert').className="alert_class_hidden";
+    document.getElementById("score").innerHTML="000";
+    document.getElementById("timer").innerHTML=("00:00");
+    for (let id of window.all_act_ids){
+        document.getElementById(id).className="box";
+    }
+    for (let id of window.obstacle_pattern){
+        document.getElementById(id).className="box";
+    }
+
+    switch (difficulty) {
+        case 'Easy':
+            window.snake_speed=500;
+            break;
+        case 'Medium':
+            window.snake_speed=250;
+            break;
+        case 'Hard':
+            window.snake_speed=150;
+            break;
+        default:
+            window.snake_speed=500;
+    }
+    
 }
 
 

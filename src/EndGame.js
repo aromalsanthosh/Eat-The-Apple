@@ -23,6 +23,7 @@ function EndGame(){
 
         GoManuel(el);
         document.getElementById("Ob_pattern").disabled = false;
+        document.getElementById("selectedDifficulty").disabled = false;
         document.getElementById("btn_Auto").disabled = true;
         document.getElementById("btn_Stop").disabled = true;
         if (window.pause_status==='On'){
