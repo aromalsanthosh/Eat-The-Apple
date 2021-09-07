@@ -17,11 +17,11 @@ import Obstacle from './SelectObstacle'
 function App() {
 
   return (
-    <div  className="pt-5 "id="app">
+    <div  className="pt-2 "id="app">
     <div className="h-75 contents mt-0 shadow-lg pb-">
     <table id='container'>
         <tr>
-          <h1 className="mt-2">Eat The Apple<span><img alt="apple" id="logo" src={logo} /></span></h1>
+          <h1 className="mt-1">Eat The Apple<span><img alt="apple" id="logo" src={logo} /></span></h1>
         </tr>
         <tr>
           <td id="col1">              

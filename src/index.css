@@ -19,7 +19,7 @@ h1{
   width: 30px;
   border:3px solid rgb(0, 0, 0);
   /*border-radius: 50%;*/
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0) !important;
   margin-bottom:-6.5px;
   /*margin-top:-4px;*/
 }
@@ -40,7 +40,7 @@ h1{
   height: 30px;
   width: 30px;
   border:3px solid rgb(255, 255, 255);
-  background-color: rgb(14, 93, 20);
+  background-color: rgb(14, 93, 20) ;
   margin-bottom:-6.5px;
   /*margin-top:-4px;*/
   border-radius: 50%;
@@ -84,8 +84,8 @@ h1{
   width: 564px;
   max-height: 590px;
   text-align: center;
-
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+  
   
 }
 #col2{
@@ -117,8 +117,30 @@ h1{
   height: 40px;
   margin: 3px;
   font-size: auto;
-
+  background: rgba( 230, 219, 19, 0.8 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  backdrop-filter: blur( 4px ) !important;
+  -webkit-backdrop-filter: blur( 4px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+ 
 }
+
+#btn_Auto:hover{
+  width: 105px;
+  height: 40px;
+  margin: 3px;
+  font-size: auto;
+  background: rgba(255, 242, 4, 0.8) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  backdrop-filter: blur( 4px ) !important;
+  -webkit-backdrop-filter: blur( 4px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+ 
+}
+
+
 #btn_Stop{
   width: 105px;
   height: 40px;
@@ -176,7 +198,12 @@ h1{
 }*/
 
 #score_bord{
-  background-color: rgb(120, 240, 200);
+  background: rgba( 22, 173, 243, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: block;
   
 }
@@ -187,5 +214,44 @@ h1{
 
 #timer{
   font-size: 22px;
-  
+}
+
+.arrow-buttons{
+  background: rgba( 22, 243, 129, 0.7 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;
+  backdrop-filter: blur( 7.5px ) !important;
+  -webkit-backdrop-filter: blur( 7.5px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.arrow-buttons:hover{
+  background: rgba( 0, 255, 123, 1 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  backdrop-filter: blur( 4px ) !important;
+  -webkit-backdrop-filter: blur( 4px ) !important;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.btn-dark{
+  background: rgba( 75, 73, 213, 0.7 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;
+  backdrop-filter: blur( 4px )!important;
+  -webkit-backdrop-filter: blur( 4px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.btn-dark:hover{
+  background: rgba(39, 36, 240, 0.7) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;
+  backdrop-filter: blur( 4px )!important;
+  -webkit-backdrop-filter: blur( 4px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+#grid_el{
+  background-color: black;
 }

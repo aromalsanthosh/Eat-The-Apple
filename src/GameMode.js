@@ -1,6 +1,7 @@
 
 import {GoAuto} from './Auto';
 import {move} from './NavigationButtons'
+import './index.css'
 
 var var_AppleColor;
 var previous_time_difference=0;
@@ -9,7 +10,7 @@ var time_difference;
 function BtnGameCtrl(){
      return(
          <div>
-             <button type="button" class="btn btn-success" id="btn_game" onClick={()=> Game()}>New Game</button>
+             <button type="button" class="new-game-button btn btn-dark" id="btn_game" onClick={()=> Game()}>New Game</button>
          </div>
         
      );

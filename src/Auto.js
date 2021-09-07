@@ -4,7 +4,7 @@ import {move} from './NavigationButtons'
 function Auto(){
      return(
          <span>
-             <button type="button" class="btn btn-outline-warning"  id="btn_Auto" onClick={()=> AutoManuel()} >Go Auto</button>
+             <button type="button" class="btn btn-warning"  id="btn_Auto" onClick={()=> AutoManuel()} >Go Auto</button>
          </span>
         
      );

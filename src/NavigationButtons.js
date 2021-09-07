@@ -1,4 +1,4 @@
-
+import './index.css'
 import {GenerateApple} from './GameMode'
 import  {EndGame} from './EndGame'
 
@@ -7,11 +7,11 @@ let move_complete_flag='completed';
 function NavButtons(){
     return(
         <div className='NavContainer'>
-            <button onClick={()=>move("up","manuel")} className="btn btn-secondary btn-lg">↑</button>
+            <button onClick={()=>move("up","manuel")} className="arrow-buttons btn btn-secondary btn-lg">↑</button>
             <br></br>
-            <button  onClick={()=>move("left","manuel")} className="btn btn-secondary btn-lg">←</button>
-            <button  onClick={()=>move("down","manuel")} className="btn btn-secondary btn-lg">↓</button>
-            <button  onClick={()=>move("right","manuel")} className="btn btn-secondary btn-lg">→</button>
+            <button  onClick={()=>move("left","manuel")} className="arrow-buttons btn btn-secondary btn-lg">←</button>
+            <button  onClick={()=>move("down","manuel")} className="arrow-buttons btn btn-secondary btn-lg">↓</button>
+            <button  onClick={()=>move("right","manuel")} className="arrow-buttons btn btn-secondary btn-lg">→</button>
            
         </div>
 
