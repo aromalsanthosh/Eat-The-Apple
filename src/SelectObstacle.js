@@ -6,7 +6,8 @@ const obstacle_pattern4=["id01_01","id01_02","id01_03","id01_04","id01_05","id01
 ,"id20_01","id20_02","id20_03","id20_04","id20_05","id20_06","id20_07","id20_08","id20_09","id20_10","id20_11","id20_12","id20_13","id20_14","id20_15","id20_16","id20_17","id20_18","id20_19","id20_20"
 ,"id02_01","id03_01","id04_01","id05_01","id06_01","id07_01","id08_01","id09_01","id10_01","id11_01","id12_01","id13_01","id14_01","id15_01","id16_01","id17_01","id18_01","id19_01"
 ,"id02_20","id03_20","id04_20","id05_20","id06_20","id07_20","id08_20","id09_20","id10_20","id11_20","id12_20","id13_20","id14_20","id15_20","id16_20","id17_20","id18_20","id19_20"]
-
+const obstacle_pattern5=["id01_01","id01_02","id01_03","id01_04","id01_05","id01_06","id01_07","id01_08","id01_09","id01_10","id01_11","id01_12","id01_13","id01_14","id01_15","id01_16","id01_17","id01_18","id01_19","id01_20"
+,"id20_01","id20_02","id20_03","id20_04","id20_05","id20_06","id20_07","id20_08","id20_09","id20_10","id20_11","id20_12","id20_13","id20_14","id20_15","id20_16","id20_17","id20_18","id20_19","id20_20"]
 
 
 function Obstacle(){
@@ -20,6 +21,7 @@ function Obstacle(){
                 <option className="btn-outline-secondary" value="Pattern2">Pattern 2</option>
                 <option className="btn-outline-secondary" value="Pattern3">Pattern 3</option>
                 <option className="btn-outline-secondary" value="Pattern4">Pattern 4</option>
+                <option className="btn-outline-secondary" value="Pattern5">Pattern 5</option>
             </select>
          </div>
     );
@@ -51,6 +53,9 @@ function ChangeObstacle(pattern){
             break;
         case 'Pattern4':
             window.obstacle_pattern=obstacle_pattern4;
+            break;
+        case 'Pattern5':
+            window.obstacle_pattern=obstacle_pattern5;
             break;
         default:
             window.obstacle_pattern=[];

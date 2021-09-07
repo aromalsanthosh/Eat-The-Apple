@@ -174,3 +174,18 @@ h1{
   margin: 7px;
 
 }*/
+
+#score_bord{
+  background-color: rgb(120, 240, 200);
+  display: block;
+  
+}
+#score{
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+#timer{
+  font-size: 22px;
+  
+}
