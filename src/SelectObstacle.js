@@ -83,9 +83,7 @@ function changeDifficulty(difficulty){
     for (let id of window.all_act_ids){
         document.getElementById(id).className="box";
     }
-    for (let id of window.obstacle_pattern){
-        document.getElementById(id).className="box";
-    }
+    
 
     switch (difficulty) {
         case 'Easy':
